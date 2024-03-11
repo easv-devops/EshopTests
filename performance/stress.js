@@ -1,4 +1,5 @@
 import http from 'k6/http';
+import { sleep } from 'k6';
 
 export let options = {
     stages: [
@@ -22,4 +23,5 @@ export let options = {
 
 export default function () {
     http.get('http://localhost:5222/api/v1/catalog/items');
+    sleep(100);
 }
