@@ -10,7 +10,7 @@ export let options = {
         { duration: '30s', target: 50 },    // And wait for behavior to change (maybe)
         { duration: '5s', target: 100 },    // Repeat...
         { duration: '30s', target: 100 },
-        { duration: '5s', target: 150 },    // Repeat
+        { duration: '5s', target: 150 },    // Repeat...
         { duration: '30s', target: 150 },
                                             // And may continue repeating until you know your upper limit.
     ],
